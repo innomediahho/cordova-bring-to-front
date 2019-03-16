@@ -11,6 +11,7 @@ Forked from:
 ``
 https://github.com/markeeftb/cordova-bring-to-front
 ``
+
 Updated to work with Cordova 7 (package.json file was missing)
 
 Put it on npmjs.org registry because nobody has done it yet.
