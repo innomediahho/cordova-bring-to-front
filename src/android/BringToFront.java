@@ -16,9 +16,9 @@ import android.util.Log;
 public class BringToFront extends CordovaPlugin {
   @Override
   public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-    Log.d("Bring", "action is:" + action);
+    Log.d("BringToFront", "action is:" + action);
     if (action.equals("bringToFront")) {
-      Log.d("Bring", "I see you baby");
+      Log.d("BringToFront", "I see you");
       Intent notificationIntent = new Intent(cordova.getActivity(), cordova.getActivity().getClass());
       notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
       PendingIntent pendingIntent = PendingIntent.getActivity(cordova.getActivity(), 0, notificationIntent, 0);
