@@ -1,12 +1,16 @@
 {
   "name": "cordova-plugin-bring-to-front",
   "description": "Cordova Bring To Front Android Plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "cordova": {
     "id": "cordova-plugin-bring-to-front",
     "platforms": [
       "android"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innomediahho/cordova-plugin-bring-to-front"
   },
   "keywords": [
     "cordova",
