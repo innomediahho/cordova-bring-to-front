@@ -1,12 +1,18 @@
 {
   "name": "cordova-bring-to-front",
-  "version": "0.0.1",
+  "description": "Cordova Bring To Front Android Plugin",
+  "version": "0.0.2",
   "cordova": {
-    "id": "in.lucasdup.bringtofront",
+    "id": "cordova-bring-to-front",
     "platforms": [
       "android"
     ]
   },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
   "engines": [
     {
       "name": "cordova",
@@ -21,5 +27,6 @@
       "version": ">=10.0.14393.0"
     }
   ],
+  "author": "Lucas Dupin",
   "license": "Apache 2.0"
 }
