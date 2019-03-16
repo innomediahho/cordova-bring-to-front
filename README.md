@@ -1,4 +1,4 @@
-# cordova-bring-to-front
+# cordova-plugin-bring-to-front
 Cordova plugin to bring app to foreground when it's hidden - on background but still running.  
 This plugin is **android** only.
 
@@ -17,11 +17,13 @@ Put it on npmjs.org registry because nobody has done it yet.
 
 # Installation
 ``
-cordova plugin add https://github.com/innomediahho/cordova-bring-to-front
+cordova plugin add cordova-plugin-bring-to-front
 ``
+
 Or
+
 ``
-cordova plugin add cordova-bring-to-front
+cordova plugin add https://github.com/innomediahho/cordova-plugin-bring-to-front
 ``
 
 
