@@ -1,9 +1,9 @@
 {
-  "name": "cordova-bring-to-front",
+  "name": "cordova-plugin-bring-to-front",
   "description": "Cordova Bring To Front Android Plugin",
   "version": "0.0.2",
   "cordova": {
-    "id": "cordova-bring-to-front",
+    "id": "cordova-plugin-bring-to-front",
     "platforms": [
       "android"
     ]
