@@ -21,7 +21,10 @@ public class BringToFront extends CordovaPlugin {
       Log.d("BringToFront", "I see you");
       Intent notificationIntent = new Intent(cordova.getActivity(), cordova.getActivity().getClass());
       notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-      PendingIntent pendingIntent = PendingIntent.getActivity(cordova.getActivity(), 0, notificationIntent, 0);
+      
+      int flags = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S ? PendingIntent.FLAG_IMMUTABLE : 0;
+      PendingIntent pendingIntent = PendingIntent.getActivity(cordova.getActivity(), 0, notificationIntent, flags);
+      
       try 
       {
         pendingIntent.send();
